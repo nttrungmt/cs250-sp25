@@ -51,4 +51,16 @@ public class PersonDataManager {
     public void saveToBinaryFile(String filePath) {
         //TODO: add code below
     }
+    
+     //the program entry point
+     public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in); //use to read user's command
+	PersonDataManager manager = new PersonDataManager(); //the data manager instance
+	while(true) {
+		System.out.print("PersonDataManager> ");
+		String line = sc.nextLine(); //read the next command
+		String[] cmds = line.split("\\s+");
+		//TODO: continue with the code to handle the commands received from the users below
+	}
+     }
 }
