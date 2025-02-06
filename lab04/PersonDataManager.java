@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+import java.util.*;
+import java.io.*;
 public class PersonDataManager {
     private ArrayList<Person> listPerson; //store the collection of Person objects
 
@@ -30,6 +31,22 @@ public class PersonDataManager {
      * @return none
      */
     public void saveToTextFile(String filePath) {
+        //TODO: add code below
+    }
+
+    /* This method loads Person objects from a binary file into listPerson
+     * @param filePath: The input file path
+     * @return none
+     */
+    public void loadFromBinaryFile(String filePath) {
+        //TODO: add code below
+    }    
+    
+    /* This method writes the Person objects in listPerson to a binary file
+     * @param path: the output file path
+     * @return none
+     */
+    public void saveToBinaryFile(String filePath) {
         //TODO: add code below
     }
 }
