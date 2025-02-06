@@ -1,3 +1,4 @@
+package lab04;
 public class Person {
 	private int ssn;		//person's ssn
 	private String name;	       //person's name
