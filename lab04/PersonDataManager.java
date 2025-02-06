@@ -1,3 +1,5 @@
+package lab04;
+
 import java.util.*;
 import java.io.*;
 public class PersonDataManager {
