@@ -19,6 +19,6 @@ public class Person {
 	public void setBirthDay(String bDay)   { this.birthday = bDay;  }
 
 	public String toString() {
-		return "Person: " + ssn + ", " + name + ", " + birthDay;
+		return "Person: " + ssn + ", " + name + ", " + birthday;
 	}
 }
