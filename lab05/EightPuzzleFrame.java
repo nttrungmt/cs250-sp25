@@ -19,15 +19,19 @@ public class EightPuzzleFrame extends JFrame {
 	  //Add code for this constructor method below
   }
 
-
   //This method handles the click event on the button on the grid
   // r,c: the row and column indexes of the button on the grid
   public void btnGrid_Clicked(int r, int c) {
-	  //Add code for this actionPerformed method below
+	  //Add code for this btnGrid_Clicked method below
   }
 
   //This method checks if the game is finished or not.
   public void checkWin() {
   	//Add code for this checkWin method below
+  }
+
+  //This method resets the game to play a new game
+  public void btnNewGame_Clicked() {
+  	//Add code for this btnNewGame_Clicked method below
   }
 }
