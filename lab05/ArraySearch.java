@@ -28,7 +28,7 @@ public class ArraySearch {
        //TODO: add code below
     }
 
-    /** Implement binary search to search for a Employee that matches the name
+    /** Implement binary search to search for an Employee that matches the name
      * @param arrEmp - an array of Employee objects
      * @param name - the Employee’s name to be found in arrEmp.
      * @return the Employee object in the array if found; null otherwise.
@@ -39,12 +39,16 @@ public class ArraySearch {
 
     /* the main application method */
     public static void main(String[] args) {
-        int[] arrInt = { 1, 5, 4, 8, 3, 2 };	  
+        int[] arrInt = { 1, 5, 4, 8, 3, 2 };
+        //TODO: write code to test linear and binary search on arrInt
+        
         Employee[] arrEmp = new Employee[5];
         arrEmp[0] = new Employee( 237860451, "Callum", 30000);
         arrEmp[1] = new Employee( 867584562, "Blake", 45000);
         arrEmp[2] = new Employee( 628457851, "Kayden", 50000);
         arrEmp[3] = new Employee( 784583166, "Colin", 60000);
         arrEmp[4] = new Employee( 789451263, "James", 55000);
+        //TODO: write code to test linear and binary search on arrEmp
+        
     }
 }
