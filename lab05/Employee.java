@@ -1,0 +1,18 @@
+package lab05;
+
+public class Employee {
+    private int ssn;           //the SSN of this employee
+    private String name; 	//name of the employee
+    private double salary;	//salary of the peremployeeson	
+    public Person(int ssn, String name, double salary) {
+        this.ssn = ssn;
+        this.name = name;
+        this.salary = salary;
+    }
+    public int getSsn()       { return ssn;	}
+    public String getName()   { return name; }
+    public int getSalary() {	 return salary;	}	
+    public String toString() {
+        return "ssn: " + ssn + ", name: " + name + ", salary: " + salary;
+    }
+}
