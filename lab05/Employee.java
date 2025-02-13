@@ -15,7 +15,7 @@ public class Employee {
     //get methods
     public int getSsn()       { return ssn;	}
     public String getName()   { return name; }
-    public int getSalary() {	 return salary;	}	
+    public double getSalary() {	 return salary;	}	
 
     //Overrided toString() method
     public String toString() {
