@@ -27,7 +27,7 @@ public class EightPuzzleFrame extends JFrame {
 		bFinished = false;				//game is not finished when start
 		//create the status label and put it in the north region
 		lblStatus = new JLabel("Swap blank with neighbors");
-		lblStatus.setFont(new Font("Arial", Font.BOLD, 40));
+		lblStatus.setFont(new Font("Arial", Font.BOLD, 14));
 		this.add(lblStatus, BorderLayout.NORTH);
 		//create the new game button and put it in the south region
 		btnNewGame = new JButton("New Game");
