@@ -51,7 +51,7 @@ public class EightPuzzleFrame extends JFrame {
 	}
 
 	// This method checks if the game is finished or not.
-	public void checkWin() {
+	public boolean checkWin() {
 		// Add code for this checkWin method below
 	}
 
