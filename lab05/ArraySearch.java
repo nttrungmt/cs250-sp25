@@ -8,7 +8,7 @@ public class ArraySearch {
      * @return the index of the target in the array if found; -1 otherwise.
      */
     public static int linearSearch(int[] arrInt, int target) {
-        //TODO: add code below
+        //TODO 1: add code below
     }
 
     /** Search and return the Employee that matches the given name in the array.
@@ -17,7 +17,7 @@ public class ArraySearch {
      * @return the Employee object in the array if found; null otherwise.
      */
     public static Employee linearSearch(Employee[] arrEmp, String name) {
-        //TODO add code below
+        //TODO 2: add code below
     }
 
     /**
@@ -25,7 +25,7 @@ public class ArraySearch {
      * Return -1 if not found.
      */
     public static int binarySearch(int[] arrInt, int target) {
-       //TODO: add code below
+       //TODO 3: add code below
     }
 
     /** Implement binary search to search for an Employee that matches the name
@@ -34,7 +34,7 @@ public class ArraySearch {
      * @return the Employee object in the array if found; null otherwise.
      */
     public static Employee binarySearch(Employee[] arrEmp, String name) {
-        //TODO add code below
+        //TODO 4: add code below
     }
 
     /* the main application method */
@@ -42,8 +42,8 @@ public class ArraySearch {
         int[] arrInt = { 1, 5, 4, 8, 3, 2 };
         //Test linear search on arrInt
         System.out.println("linearSearch of 8 in arrInt: " + linearSearch(arrInt, 8));
-		System.out.println("linearSearch of 15 in arrInt: " + linearSearch(arrInt, 15));
-		//TODO: Add code to test binary search on arrInt below
+	System.out.println("linearSearch of 15 in arrInt: " + linearSearch(arrInt, 15));
+	//TODO 5: Add code to test binary search on arrInt below
         
         Employee[] arrEmp = new Employee[5];
         arrEmp[0] = new Employee( 237860451, "Callum", 30000);
@@ -53,7 +53,7 @@ public class ArraySearch {
         arrEmp[4] = new Employee( 789451263, "James", 55000);
         //Test linear search on arrEmp
         System.out.println("linearSearch of Employee named Blake: " + linearSearch(arrEmp, "Blake"));
-		System.out.println("linearSearch of Employee named Jane: " 	+ linearSearch(arrEmp, "Jane"));
-		//TODO: Add code to test binary search on arrEmp below
+	System.out.println("linearSearch of Employee named Jane: " 	+ linearSearch(arrEmp, "Jane"));
+	//TODO 6: Add code to test binary search on arrEmp below
     }
 }
