@@ -6,7 +6,7 @@ public class Employee {
     private double salary;	//salary of the employee
 
     //Constructor method
-    public Person(int ssn, String name, double salary) {
+    public Employee(int ssn, String name, double salary) {
         this.ssn = ssn;
         this.name = name;
         this.salary = salary;
