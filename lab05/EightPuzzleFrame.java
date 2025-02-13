@@ -45,6 +45,11 @@ public class EightPuzzleFrame extends JFrame {
 		// Add code for this btnGrid_Clicked method below
 	}
 
+	//Utility method to swap the texts of two buttons (r1,c1) and (r2,c2) on the grid
+	private void swap(int r1, int c1, int r2, int c2) {
+		// Add code for this method below
+	}
+
 	// This method checks if the game is finished or not.
 	public void checkWin() {
 		// Add code for this checkWin method below
