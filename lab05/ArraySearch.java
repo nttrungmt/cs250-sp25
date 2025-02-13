@@ -40,7 +40,10 @@ public class ArraySearch {
     /* the main application method */
     public static void main(String[] args) {
         int[] arrInt = { 1, 5, 4, 8, 3, 2 };
-        //TODO: write code to test linear and binary search on arrInt
+        //Test linear search on arrInt
+        System.out.println("linearSearch of 8 in arrInt: " + linearSearch(arrInt, 8));
+		System.out.println("linearSearch of 15 in arrInt: " + linearSearch(arrInt, 15));
+		//TODO: Add code to test binary search on arrInt below
         
         Employee[] arrEmp = new Employee[5];
         arrEmp[0] = new Employee( 237860451, "Callum", 30000);
@@ -48,7 +51,9 @@ public class ArraySearch {
         arrEmp[2] = new Employee( 628457851, "Kayden", 50000);
         arrEmp[3] = new Employee( 784583166, "Colin", 60000);
         arrEmp[4] = new Employee( 789451263, "James", 55000);
-        //TODO: write code to test linear and binary search on arrEmp
-        
+        //Test linear search on arrEmp
+        System.out.println("linearSearch of Employee named Blake: " + linearSearch(arrEmp, "Blake"));
+		System.out.println("linearSearch of Employee named Jane: " 	+ linearSearch(arrEmp, "Jane"));
+		//TODO: Add code to test binary search on arrEmp below
     }
 }
