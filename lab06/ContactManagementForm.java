@@ -26,9 +26,7 @@ public class ContactManagementForm extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	/* Constructor method with set up the GUI components and register event handlers */
 	public ContactManagementForm() {
   	}
 
