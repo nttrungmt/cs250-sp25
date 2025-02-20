@@ -37,5 +37,6 @@ public class Contact {
 		list.add(new Contact("Kenneth Bullock","1-382-141-7788","nullam.enim@google.org", "Friend"));
 		list.add(new Contact("Troy Rush","(425) 321-2541","ultrices.posure.cubilia@icloud.net", "Other"));
 		list.add(new Contact("Kennan Carney","(254) 947-3933","id@yahoo.ca", "Friend"));
+		return list;
 	}
 }
