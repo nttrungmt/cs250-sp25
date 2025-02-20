@@ -1,4 +1,5 @@
 package lab06;
+import java.util.ArrayList;
 public class Contact {
 	protected String name, phone, email, group;	//contact information
 	
@@ -27,5 +28,14 @@ public class Contact {
 	public String toString() {
 		return "name=" + name + ", phone=" + phone + ", email=" + email
                      + ", group=" + group;	
+	}
+
+	public static ArrayList<Contact> getSampleData() {
+		ArrayList<Contact> list = new ArrayList<>();
+		list.add(new Contact("Tamekah Stafford","(746) 824-8981","quis.pede@protonmail.couk","Friend"));
+		list.add(new Contact("Irma Melendez","(758) 586-8178","arcu@google.org","Family"));
+		list.add(new Contact("Kenneth Bullock","1-382-141-7788","nullam.enim@google.org", "Friend"));
+		list.add(new Contact("Troy Rush","(425) 321-2541","ultrices.posure.cubilia@icloud.net", "Other"));
+		list.add(new Contact("Kennan Carney","(254) 947-3933","id@yahoo.ca", "Friend"));
 	}
 }
