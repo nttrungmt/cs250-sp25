@@ -52,14 +52,10 @@ public class WumpusWorld {
 	private void loadImage() {
 		try {
 			spritesImg = ImageIO.read(this.getClass().getResource("/images/wumpus_sprites.png"));
-			//load the image for background tiles, gold, and wumpus
-			objSprites = new BufferedImage[5];
-			for (int r = 0; r < 5; r++)
-				objSprites[r] = spritesImg.getSubimage(r * 64, 0, 64, 64);
-			//load different images for the agents
-			agentSprites = new BufferedImage[8];
-			for (int c = 0; c < 8; c++)
-				agentSprites[c] = spritesImg.getSubimage(c * 64, 64, 64, 64);
+			//TODO: load the image for background tiles, gold, and wumpus
+			
+			//TODO: load different images for the agents
+			
 		} catch (IOException e) {
 			System.err.println("Error loading the wumpus sprite image");
 			System.exit(-1);
