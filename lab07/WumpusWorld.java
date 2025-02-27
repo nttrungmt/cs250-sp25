@@ -61,7 +61,8 @@ public class WumpusWorld {
 			System.exit(-1);
 		}
 	}
-	
+
+	//this method initialized the game board filled with wumpus, pits, golds and other game states 
 	public void initialize() {
 		//1. TODO: Initialize gameBoard 2D array with all empty strings "".
 		
@@ -87,16 +88,17 @@ public class WumpusWorld {
 		//TODO: add code below
 	}
 		
-	/* This method returns the image resource according to the input settings */
+	// This method returns the image resource according to the input settings
 	public Image getImage(int r, int c) throws IOException {		
 		//TODO: add code below 
 	}
-	
+
+	//this method updates the game state depending on input keyboard events
 	public void update(KeyEvent e) {
 		//TODO: add code below
 	}
 	
-	/* This method validates the game state if the agent moves to (x,y) */
+	// This method tries to move the agent at (r,c) followed the given direction
 	public boolean moveAgent(int r, int c, int direction) {
 		//TODO: add code below
 	}
