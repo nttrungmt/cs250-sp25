@@ -1,3 +1,4 @@
+package lab08;
 import java.util.ArrayList;
 public class Prog1 {
     /**
